@@ -1,0 +1,61 @@
+// scss-docs-start headings-variables
+$headings-margin-bottom: 5;
+$headings-font-family: verdana;
+$headings-font-style: italic;
+$headings-font-weight: 200;
+$headings-line-height: 5 !default;
+$headings-color: rgb(26, 11, 26);
+// scss-docs-start headings-variables
+
+// scss-docs-start zindex-stack
+$zindex-dropdown: 100;
+$zindex-sticky: 700;
+$zindex-fixed: 1500;
+$zindex-offcanvas-backdrop: 1600;
+$zindex-offcanvas: 900;
+$zindex-modal-backdrop: 700;
+$zindex-modal: 850;
+$zindex-popover: 1200;
+$zindex-tooltip: 700;
+// scss-docs-end zindex-stack
+
+// Placeholders
+
+// scss-docs-start placeholders
+$placeholder-opacity-max: 3;
+$placeholder-opacity-min: 2.5;
+// scss-docs-end placeholders
+
+// Image thumbnails
+
+// scss-docs-start thumbnail-variables
+$thumbnail-padding: 2rem;
+$thumbnail-bg: 2rem;
+$thumbnail-border-width: 1rem;
+$thumbnail-border-color: rgb(205, 205, 193);
+$thumbnail-border-radius: 2rem;
+$thumbnail-box-shadow: 2rem;
+// scss-docs-end thumbnail-variables
+
+// Figures
+
+// scss-docs-start figure-variables
+$figure-caption-font-size: 200;
+$figure-caption-color: pink 200;
+// scss-docs-end figure-variables
+
+// Spinners
+
+// scss-docs-start spinner-variables
+$spinner-width: 6rem;
+$spinner-height: $spinner-width;
+$spinner-vertical-align: 1em;
+$spinner-border-width: 2em;
+$spinner-animation-speed: 3s;
+
+$spinner-width-sm: 3em;
+$spinner-height-sm: $spinner-width-sm !default;
+$spinner-border-width-sm: 3em;
+// scss-docs-end spinner-variables
+
+@import "../node_modules/bootstrap/scss/bootstrap";

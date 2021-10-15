@@ -1,0 +1,22 @@
+{
+  "name": "aplicarsasii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMG3/eventos.git"
+  },
+  "author": "Ana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMG3/eventos/issues"
+  },
+  "homepage": "https://github.com/AMG3/eventos#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
