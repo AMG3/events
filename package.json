@@ -1,5 +1,5 @@
 {
-  "name": "aplicarsasii",
+  "name": "repositoriogithub",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AMG3/eventos.git"
+    "url": "git+https://github.com/AMG3/events"
   },
   "author": "Ana",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AMG3/eventos/issues"
+    "url": "https://github.com/AMG3/events"
   },
-  "homepage": "https://github.com/AMG3/eventos#readme",
+  "homepage": "https://github.com/AMG3/events",
   "dependencies": {
     "bootstrap": "^5.1.3"
   }

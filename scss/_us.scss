@@ -1,3 +1,11 @@
 .filter {
   filter: grayscale(100%);
 }
+
+.filter1 {
+  filter: opacity (var(--value, 100%));
+}
+
+.filter2 {
+  filter: contrast(var(--value, 1.5));
+}

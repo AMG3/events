@@ -10,23 +10,11 @@
   box-shadow: none;
 }
 
-.filter {
-  filter: grayscale(100%);
-}
-
-.filter1 {
-  filter: opacity(var(--value, 100%));
-}
-
-.filter2 {
-  filter: contrast(var(--value, 1.5));
-}
-
 .title {
   padding: 7rem 1rem 3rem;
 }
 
-#effect-hover .img {
+.effect-hover .img {
   width: 100%;
   height: auto;
   background-size: contain;
@@ -34,7 +22,7 @@
   position: relative;
 }
 
-#effect-hover #efecto {
+.effect-hover #efecto {
   position: absolute;
   top: 0;
   left: 0;
@@ -48,7 +36,7 @@
   transition: opacity 1s;
 }
 
-#effect-hover .img:hover #efecto {
+.effect-hover .img:hover #efecto {
   opacity: 1;
 }
 

@@ -98,12 +98,9 @@ hr:not([size]) {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
-  margin-bottom: 5;
-  font-family: verdana;
-  font-style: italic;
-  font-weight: 200;
-  line-height: 5;
-  color: #1a0b1a;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 h1, .h1 {
@@ -487,7 +484,7 @@ progress {
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
-  line-height: 5;
+  line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-1 {
@@ -498,7 +495,7 @@ progress {
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
-  line-height: 5;
+  line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-2 {
@@ -509,7 +506,7 @@ progress {
 .display-3 {
   font-size: calc(1.525rem + 3.3vw);
   font-weight: 300;
-  line-height: 5;
+  line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-3 {
@@ -520,7 +517,7 @@ progress {
 .display-4 {
   font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
-  line-height: 5;
+  line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-4 {
@@ -531,7 +528,7 @@ progress {
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
   font-weight: 300;
-  line-height: 5;
+  line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-5 {
@@ -542,7 +539,7 @@ progress {
 .display-6 {
   font-size: calc(1.375rem + 1.5vw);
   font-weight: 300;
-  line-height: 5;
+  line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-6 {
@@ -596,10 +593,10 @@ progress {
 }
 
 .img-thumbnail {
-  padding: 2rem;
-  background-color: 2rem;
-  border: 1rem solid #cdcdc1;
-  border-radius: 2rem;
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
 }
@@ -614,8 +611,8 @@ progress {
 }
 
 .figure-caption {
-  font-size: 200;
-  color: pink 200;
+  font-size: 0.875em;
+  color: #6c757d;
 }
 
 .container,
@@ -3456,7 +3453,7 @@ textarea.form-control-lg {
 
 .dropdown-menu {
   position: absolute;
-  z-index: 100;
+  z-index: 1000;
   display: none;
   min-width: 10rem;
   padding: 0.5rem 0;
@@ -5366,7 +5363,7 @@ textarea.form-control-lg {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 850;
+  z-index: 1055;
   display: none;
   width: 100%;
   height: 100%;
@@ -5431,7 +5428,7 @@ textarea.form-control-lg {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 700;
+  z-index: 1050;
   width: 100vw;
   height: 100vh;
   background-color: #000;
@@ -5646,7 +5643,7 @@ textarea.form-control-lg {
 }
 .tooltip {
   position: absolute;
-  z-index: 700;
+  z-index: 1080;
   display: block;
   margin: 0;
   font-family: var(--bs-font-sans-serif);
@@ -5748,7 +5745,7 @@ textarea.form-control-lg {
   position: absolute;
   top: 0;
   left: 0 /* rtl:ignore */;
-  z-index: 1200;
+  z-index: 1070;
   display: block;
   max-width: 276px;
   font-family: var(--bs-font-sans-serif);
@@ -5860,7 +5857,6 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   font-size: 1rem;
-  color: #1a0b1a;
   background-color: #f0f0f0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   border-top-left-radius: calc(0.3rem - 1px);
@@ -6088,19 +6084,19 @@ textarea.form-control-lg {
 }
 .spinner-border {
   display: inline-block;
-  width: 6rem;
-  height: 6rem;
-  vertical-align: 1em;
-  border: 2em solid currentColor;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: -0.125em;
+  border: 0.25em solid currentColor;
   border-right-color: transparent;
   border-radius: 50%;
-  animation: 3s linear infinite spinner-border;
+  animation: 0.75s linear infinite spinner-border;
 }
 
 .spinner-border-sm {
-  width: 3em;
-  height: 3em;
-  border-width: 3em;
+  width: 1rem;
+  height: 1rem;
+  border-width: 0.2em;
 }
 
 @keyframes spinner-grow {
@@ -6114,30 +6110,30 @@ textarea.form-control-lg {
 }
 .spinner-grow {
   display: inline-block;
-  width: 6rem;
-  height: 6rem;
-  vertical-align: 1em;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: -0.125em;
   background-color: currentColor;
   border-radius: 50%;
   opacity: 0;
-  animation: 3s linear infinite spinner-grow;
+  animation: 0.75s linear infinite spinner-grow;
 }
 
 .spinner-grow-sm {
-  width: 3em;
-  height: 3em;
+  width: 1rem;
+  height: 1rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .spinner-border,
 .spinner-grow {
-    animation-duration: 6s;
+    animation-duration: 1.5s;
   }
 }
 .offcanvas {
   position: fixed;
   bottom: 0;
-  z-index: 900;
+  z-index: 1045;
   display: flex;
   flex-direction: column;
   max-width: 100%;
@@ -6157,7 +6153,7 @@ textarea.form-control-lg {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1600;
+  z-index: 1040;
   width: 100vw;
   height: 100vh;
   background-color: #000;
@@ -6238,7 +6234,7 @@ textarea.form-control-lg {
   vertical-align: middle;
   cursor: wait;
   background-color: currentColor;
-  opacity: 3;
+  opacity: 0.5;
 }
 .placeholder.btn::before {
   display: inline-block;
@@ -6263,11 +6259,11 @@ textarea.form-control-lg {
 
 @keyframes placeholder-glow {
   50% {
-    opacity: 2.5;
+    opacity: 0.2;
   }
 }
 .placeholder-wave {
-  mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0) 75%, #000 95%);
+  mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);
   mask-size: 200% 100%;
   animation: placeholder-wave 2s linear infinite;
 }
@@ -6377,7 +6373,7 @@ textarea.form-control-lg {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1500;
+  z-index: 1030;
 }
 
 .fixed-bottom {
@@ -6385,48 +6381,48 @@ textarea.form-control-lg {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1500;
+  z-index: 1030;
 }
 
 .sticky-top {
   position: sticky;
   top: 0;
-  z-index: 700;
+  z-index: 1020;
 }
 
 @media (min-width: 576px) {
   .sticky-sm-top {
     position: sticky;
     top: 0;
-    z-index: 700;
+    z-index: 1020;
   }
 }
 @media (min-width: 768px) {
   .sticky-md-top {
     position: sticky;
     top: 0;
-    z-index: 700;
+    z-index: 1020;
   }
 }
 @media (min-width: 992px) {
   .sticky-lg-top {
     position: sticky;
     top: 0;
-    z-index: 700;
+    z-index: 1020;
   }
 }
 @media (min-width: 1200px) {
   .sticky-xl-top {
     position: sticky;
     top: 0;
-    z-index: 700;
+    z-index: 1020;
   }
 }
 @media (min-width: 1400px) {
   .sticky-xxl-top {
     position: sticky;
     top: 0;
-    z-index: 700;
+    z-index: 1020;
   }
 }
 .hstack {
@@ -11130,6 +11126,80 @@ textarea.form-control-lg {
 
 .filter {
   filter: grayscale(100%);
+}
+
+.filter1 {
+  filter: opacity var(--value, 100%);
+}
+
+.filter2 {
+  filter: contrast(var(--value, 1.5));
+}
+
+.servicios-div {
+  top: 1px;
+}
+
+.servicios-a {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.servicios-a:focus {
+  box-shadow: none;
+}
+
+.title {
+  padding: 7rem 1rem 3rem;
+}
+
+.effect-hover .img {
+  width: 100%;
+  height: auto;
+  background-size: contain;
+  margin: 10px auto;
+  position: relative;
+}
+
+.effect-hover #efecto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 95%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.726);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.effect-hover .img:hover #efecto {
+  opacity: 1;
+}
+
+h4 {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  left: 10%;
+}
+
+.principal img {
+  height: 400px;
+}
+
+.principal {
+  width: 700px;
+  height: 400px;
+}
+
+h3 {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  left: 10%;
+  color: whitesmoke;
 }
 
 /*# sourceMappingURL=style.css.map */
