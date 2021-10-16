@@ -1,2 +1,3 @@
 # Events
-##Autor: Ana Gaitan
+##Este es mi primer repo
+###Autor(a): Ana Gaitan
