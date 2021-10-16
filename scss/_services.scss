@@ -14,30 +14,51 @@
   padding: 7rem 1rem 3rem;
 }
 
-.effect-hover .img {
-  width: 100%;
+.img {
   height: auto;
   background-size: contain;
   margin: 10px auto;
   position: relative;
 }
 
-.effect-hover #efecto {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  width: 95%;
-  height: auto;
-  background-color: rgba(255, 255, 255, 0.726);
-  opacity: 0;
-  transition: opacity 1s;
+.decoration {
+  background-size: cover;
+  height: 342px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__image {
+    width: 90%;
+    max-height: 245px;
+  }
+
+  &__opaque,
+  &__text-center {
+    display: none;
+  }
 }
 
-.effect-hover .img:hover #efecto {
-  opacity: 1;
+.decoration:hover {
+  padding: 0;
+  transition: ease 2s;
+
+  .decoration__opaque {
+    height: 245px;
+    width: 90%;
+    position: absolute;
+    background: rgba(207, 151, 151, 0.45);
+    display: block;
+  }
+
+  .decoration__text-center {
+    position: absolute;
+    top: 45%;
+    left: 22%;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 h4 {
@@ -52,7 +73,6 @@ h4 {
 }
 
 .principal {
-  width: 700px;
   height: 400px;
 }
 
@@ -62,4 +82,12 @@ h3 {
   right: 10%;
   left: 10%;
   color: whitesmoke;
+}
+
+.decoration-section {
+  margin: 0 auto;
+}
+
+.iluminacion {
+  padding: 0 10px;
 }
