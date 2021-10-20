@@ -1,9 +1,38 @@
-@media screen and (max-width: 900px) {
-  .carousel-inner {
-    height: 60vh;
-  }
+.principal img {
+  height: 600px;
+}
 
-  .carousel {
-    left: 7px;
+@media screen and (max-width: 900px) {
+  .principal {
+    height: 70vh;
+    width: 890px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .principal {
+    height: 70vh;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .principal {
+    height: 70vh;
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .principal {
+    height: 50vh;
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .principal {
+    height: 50vh;
+    width: 400px;
   }
 }

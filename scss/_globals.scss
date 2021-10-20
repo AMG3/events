@@ -1,0 +1,27 @@
+@mixin photo($width) {
+  width: $width;
+  background-color: white;
+  padding: 10px 10px 50px;
+  border: 1px solid #bfbfbf;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.img-cd {
+  @include photo(400px);
+}
+
+.img-cd1 {
+  @include photo(463px);
+}
+
+.img-square1 {
+  @include photo(400px);
+}
+
+.img-square2 {
+  @include photo(400px);
+}
+
+.img-square3 {
+  @include photo(400px);
+}

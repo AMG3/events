@@ -68,14 +68,6 @@ h4 {
   left: 10%;
 }
 
-.principal img {
-  height: 400px;
-}
-
-.principal {
-  height: 400px;
-}
-
 h3 {
   position: absolute;
   bottom: 5%;
@@ -90,4 +82,69 @@ h3 {
 
 .iluminacion {
   padding: 0 10px;
+}
+
+.second-img {
+  height: 400px;
+}
+
+.secundario {
+  width: 700px;
+  height: 400px;
+}
+
+@media screen and (max-width: 900px) {
+  .secundario {
+    height: 50vh;
+    width: 600px;
+  }
+
+  .img2 {
+    height: 50vh;
+  }
+  .second-img {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .secundario {
+    height: 50vh;
+    width: 530px;
+  }
+
+  .img2 {
+    height: 50vh;
+  }
+  .second-img {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .secundario {
+    height: 36vh;
+    width: 350px;
+  }
+
+  .img2 {
+    height: 34.9vh;
+  }
+  .second-img {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .secundario {
+    height: 30vh;
+    width: 350px;
+  }
+
+  .img2 {
+    height: 28.8vh;
+  }
+  .second-img {
+    height: 240px;
+  }
 }
