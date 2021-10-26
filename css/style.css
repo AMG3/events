@@ -11323,30 +11323,27 @@ h3 {
 @media screen and (max-width: 900px) {
   .principal {
     height: 70vh;
-    width: 890px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
   .principal {
-    height: 70vh;
-    width: 600px;
+    height: 50vh;
+    width: 100%;
   }
 }
 @media screen and (max-width: 424px) {
   .principal {
-    height: 70vh;
     width: 420px;
   }
 }
 @media screen and (max-width: 384px) {
   .principal {
-    height: 50vh;
     width: 390px;
   }
 }
 @media screen and (max-width: 375px) {
   .principal {
-    height: 50vh;
     width: 400px;
   }
 }
