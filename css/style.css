@@ -11370,18 +11370,16 @@ h3 {
   }
 }
 .principal img {
-  height: 600px;
+  height: 100vh;
 }
 
 @media screen and (max-width: 900px) {
   .principal {
-    height: 70vh;
     width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
   .principal {
-    height: 50vh;
     width: 100%;
   }
 }
@@ -11392,6 +11390,7 @@ h3 {
 }
 @media screen and (max-width: 384px) {
   .principal {
+    height: 80vh;
     width: 390px;
   }
 }
